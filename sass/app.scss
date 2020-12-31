@@ -1,6 +1,14 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 // reset
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import 'partials/_reset';
+
+// variables
+@import 'partials/_variables';
+
+// common
+@import 'partials/_common';
+
+
+// partials
