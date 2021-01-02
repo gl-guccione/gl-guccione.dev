@@ -1,0 +1,43 @@
+.menu {
+
+  width: 100%;
+  position: fixed;
+  background-color: $white_600;
+  top: 0;
+  left: 0;
+
+  + * {
+    margin-top: $header_height;
+  }
+
+  &__nav {
+    width: $layout_width;
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: $header_height;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__link {
+    padding: 8px 15px;
+    color: $blue_850;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: #fff;
+      background-color: $blue_500;
+      border-radius: 12px;
+    }
+  }
+
+}
