@@ -21,3 +21,12 @@
 #contact-form {
   background-color: $blue_850;
 }
+
+#bottom_watermark {
+  background-color: $white_600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 14px;
+}
