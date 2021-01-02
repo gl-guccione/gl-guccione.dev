@@ -2,6 +2,15 @@
   background-color: #fff;
 }
 
+.home {
+  text-align: center;
+  &__transitionImage {
+    height: 200px;
+    margin: auto;
+  }
+}
+
+
 #about {
   background-color: $blue_550;
 }

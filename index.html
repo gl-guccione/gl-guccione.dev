@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- title -->
-    <title>gl-guccione DEV</title>
+    <title>gl-guccione Developer</title>
 
     <!-- link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.min.css">
 
   </head>
@@ -21,7 +22,7 @@
 
     <!-- header -->
     <header id="header" class="menu">
-      <nav class="menu__nav">
+      <nav class="menu__nav layout--boxed">
         <ul class="menu__list">
           <li class="menu__item"> <a class="menu__link" href="#home">Home</a> </li>
           <li class="menu__item"> <a class="menu__link" href="#projects">Progetti</a> </li>
@@ -35,28 +36,31 @@
     <!-- main -->
     <main>
 
-      <section id="home">
+      <section id="home" class="home layout--boxed">
 
-        <h3>Front End & Back End Web Developer</h3>
-        <h5>(small caption)</h5>
+        <h3 class="home__title">Front End & Back End Web Developer</h3>
+        <h5 class="home__caption">(small caption)</h5>
 
         <!-- icon + border radius 50% -->
-        <img src="" alt="big_icon">
+        <img class="home__image" src="" alt="image">
 
-        <div>
+        <div class="home__contacts">
           <!-- (fontawesome) linkedin, github, etc... -->
-          <i></i>
-          <i></i>
-          <i></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
+          <i class="fas fa-envelope"></i>
+          <i class="fas fa-code"></i>
+          <i class="fas fa-code-branch"></i>
+          <i class="far fa-file-code"></i>
         </div>
 
-        <h1>Giuseppe Luca Guccione</h1>
+        <h1 class="home__name">Giuseppe Luca Guccione</h1>
 
         <!-- button for download cv -->
-        <button>download cv</button>
+        <button class="home__download">download cv</button>
 
         <!-- 1 image -->
-        <img src="" alt="hero img">
+        <img class="home__transitionImage" src="img/main_img.png" alt="hero img">
 
       </section>
 
