@@ -24,7 +24,6 @@
           <li> <a href="#home">Home</a> </li>
           <li> <a href="#projects">Progetti</a> </li>
           <li> <a href="#skills">Skills</a> </li>
-          <li> <a href="#about">About</a> </li>
           <li> <a href="#contacts">Contatti</a> </li>
         </ul>
       </nav>
@@ -41,18 +40,11 @@
 
       <section id="home">
 
-        <h1>Giuseppe Luca Guccione</h1>
-
-        <h3>Full Stack Web Developer</h3>
+        <h3>Front End & Back End Web Developer</h3>
+        <h5>(small caption)</h5>
 
         <!-- icon + border radius 50% -->
-        <img src="" alt="icon">
-
-        <!-- 3/4 image -->
-        <img src="" alt="hero img">
-
-        <!-- small presentation -->
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <img src="" alt="big_icon">
 
         <div>
           <!-- (fontawesome) linkedin, github, etc... -->
@@ -61,14 +53,29 @@
           <i></i>
         </div>
 
+        <h1>Giuseppe Luca Guccione</h1>
+
         <!-- button for download cv -->
         <button>download cv</button>
 
+        <!-- 1 image -->
+        <img src="" alt="hero img">
+
       </section>
+
+
+      <!-- background dark blue (not the darker one) -->
+      <section id="about">
+
+        <!-- small presentation -->
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+      </section>
+
 
       <section id="projects">
 
-        <!-- background dark -->
+        <!-- background light gray -->
         <h2>Projects</h2>
 
         <!-- 100vh images -->
@@ -108,7 +115,7 @@
 
       </section>
 
-
+      <!-- background almost white -->
       <section id="skills">
 
         <h2>What i know</h2>
@@ -118,8 +125,8 @@
 
           <!-- elm -->
           <div>
-            <!-- icon -->
-            <img src="" alt="">
+            <!-- icon border radius 50% -->
+            <img src="" alt="tecnologies">
 
             <!-- name of tecnology -->
             <h4>PHP</h4>
@@ -127,10 +134,11 @@
             <!-- small caption -->
             <small>PHP is a server side programming language</small>
           </div>
+
           <!-- elm -->
           <div>
             <!-- icon -->
-            <img src="" alt="">
+            <img src="" alt="tecnologies">
 
             <!-- name of tecnology -->
             <h4>PHP</h4>
@@ -138,10 +146,11 @@
             <!-- small caption -->
             <small>PHP is a server side programming language</small>
           </div>
+
           <!-- elm -->
           <div>
             <!-- icon -->
-            <img src="" alt="">
+            <img src="" alt="tecnologies">
 
             <!-- name of tecnology -->
             <h4>PHP</h4>
@@ -154,9 +163,6 @@
 
       </section>
 
-      <section id="about">
-        <!-- ??? -->
-      </section>
     </main>
     <!-- /main -->
 
@@ -166,7 +172,7 @@
       <!-- 2 divs with overlap effect -->
 
       <div>
-        <!-- dark accent color + rounded top left -->
+        <!-- dark accent color + rounded top right -->
         <!-- container with info -->
 
         <!-- elm -->
@@ -184,52 +190,26 @@
         </div>
 
         <div>
-          <!-- dark almost black + rounded top right + width 90% -->
+          <!-- dark almost black + rounded top left + width 70% + margin-left auto -->
           <h2>Contact me</h2>
           <h3> --- get in touch ---</h3>
 
-          <!-- splitted in half -->
-          <!-- left side -->
-          <div>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus officia repudiandae ducimus, vero voluptatum laborum aspernatur omnis doloribus dolores assumenda, quis ipsam rem odit nostrum rerum ipsa possimus adipisci!</p>
-
+          <!-- form -->
+          <span>Message me</span>
+          <form>
             <div>
-              <!-- icon -->
-              <img src="" alt="icon">
-              <span>Name</span>
+              <input type="text" name="name">
+              <input type="email" name="email">
             </div>
             <div>
-              <!-- icon -->
-              <img src="" alt="icon">
-              <span>City</span>
+              <input type="text" name="subject">
             </div>
             <div>
-              <!-- icon -->
-              <img src="" alt="icon">
-              <span>Email</span>
+              <textarea rows="4" name="message"></textarea>
             </div>
 
-          </div>
-
-          <!-- right side -->
-          <div>
-            <span>Message me</span>
-            <form>
-              <div>
-                <input type="text" name="name">
-                <input type="email" name="email">
-              </div>
-              <div>
-                <input type="text" name="subject">
-              </div>
-              <div>
-                <textarea rows="4" name="message"></textarea>
-              </div>
-
-              <button>Send message</button>
-            </form>
-          </div>
+            <button>Send message</button>
+          </form>
         </div>
 
       </div>
