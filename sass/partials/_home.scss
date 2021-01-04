@@ -1,0 +1,63 @@
+.home {
+
+  background-color: #fff;
+
+  text-align: center;
+  overflow: hidden;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__caption {
+    margin-bottom: 25px;
+  }
+
+  &__image {
+    width: 90%;
+    max-width: 190px;
+  }
+
+  &__contacts {
+
+    margin-bottom: 10px;
+
+    li {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+      border-radius: 50%;
+      color: #fff;
+      background-color: $blue_550;
+      &:hover {
+        background-color: $blue_300;
+      }
+    }
+
+    a {
+      color: inherit;
+    }
+
+  }
+
+  h1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__transitionImage {
+
+    height: 225px;
+    margin: auto;
+
+    @media screen and (max-width: 900px) {
+      margin-left: 30px;
+      height: 250px;
+      &:last-child {
+        display: none;
+      }
+    }
+
+  }
+
+}

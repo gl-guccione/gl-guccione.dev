@@ -1,16 +1,3 @@
-#home {
-  background-color: #fff;
-}
-
-.home {
-  text-align: center;
-  &__transitionImage {
-    height: 200px;
-    margin: auto;
-  }
-}
-
-
 #about {
   background-color: $blue_550;
 }
@@ -33,9 +20,6 @@
 
 #bottom_watermark {
   background-color: $white_600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 30px;
   font-size: 14px;
 }
