@@ -15,7 +15,7 @@
 
   &__image {
     width: 90%;
-    max-width: 190px;
+    max-width: 180px;
   }
 
   &__contacts {
@@ -37,8 +37,9 @@
   }
 
   h1 {
+    font-size: 30px;
     width: 90%;
-    margin: 0 auto;
+    margin: 15px auto 0;
   }
 
   &__transitionImage {
