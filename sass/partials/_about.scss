@@ -3,5 +3,9 @@
 
   &__paragraph {
     padding: 1.5rem 0;
+    color: #fff;
+  }
+  &__paragraph + .about__paragraph {
+    padding-top: 0;
   }
 }
