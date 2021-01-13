@@ -1,0 +1,32 @@
+.button {
+  border: 0.15rem solid #c4c4c4;
+  color: #474747;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  i {
+    color: #474747;
+    padding-left: 0;
+  }
+  &:hover {
+    background-color: #c4c4c4;
+    color: #fff;
+    i {
+      color: #fff;
+    }
+  }
+  &.edit {
+    &:hover {
+      background-color: #ffc107;
+      border-color: #ffc107;
+    }
+  }
+  &.confirm {
+    &:hover {
+      background-color: #4ea901;
+      border-color: #4ea901;
+    }
+  }
+}
