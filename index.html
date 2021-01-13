@@ -95,58 +95,66 @@
         <!-- small presentation -->
         <p class="about__paragraph layout--boxed">Appassionato di coding ed informatica, intraprendente e sempre alla ricerca di nuove cose da studiare per migliorare le mie skills. Amante del lavoro in team, ma anche capace di lavorare autonomamente.</p>
         <p class="about__paragraph layout--boxed">Negli anni ho rafforzato e aumentato le mie competenze nello sviluppo web sia in front end che in back end. Competenze a cui si aggiungono le soft skill maturate negli anni. Spiccate capacità nel problem solving.</p>
-        <p class="about__paragraph layout--boxed">Durante il tempo libero adoro andare in bici, cucinare, progettare e realizzare oggetti con la stampante 3D.</p>
+        <p class="about__paragraph layout--boxed">Durante il tempo libero mi piace andare in bici, cucinare, progettare e realizzare oggetti con la stampante 3D.</p>
 
       </section>
 
 
-      <section id="projects">
+      <section id="projects" class="projects">
 
-        <!-- background light gray -->
-        <h2>Projects</h2>
+        <div class="layout--boxed">
 
-        <!-- 100vh images -->
-        <img src="" alt="all my projects">
+          <h2 class="projects__title">Progetti</h2>
 
-        <button>
-          View all my projects
-          <i class="fas fa-arrow-down"></i>
-        </button>
+          <!-- project--card -->
+          <div class="project">
 
-        <!-- card for projects -->
-        <div>
+            <!-- images side -->
+            <div class="project__images">
 
-          <!-- small heading for projects -->
-          <h3>BoolB&B</h3>
+              <!-- screenshot of the project (with carousel) + border-radius-->
+              <img src="img/projects__images/1606419975274.jpg" alt="screenshot">
 
-          <!-- small caption of the project -->
-          <small>boolb&n is a project developed ... Lorem ipsum dolor, sit amet consectetur adipisicing elit.</small>
+            </div>
+            <!-- /images side -->
 
-          <!-- list of tecnologies used -->
-          <ul>
-            <li>PHP</li>
-            <li>laravel</li>
-            <li>API</li>
-          </ul>
+            <!-- text side -->
+            <div class="project__text">
 
-          <!-- buttons for (see code on github) (see live) -->
-          <div>
-            <button>
-              <i class="far fa-eye"></i>
-              see live
-            </button>
-            <button>
-              <i class="fas fa-code"></i>
-              See the code on Github
-            </button>
+              <h3 class="project__title">BoolB&B</h3>
+              <small class="project__caption">Web app basata sul famoso AirBnB</small>
+              <p class="project__description">
+                boolb&n is a project developed... adipisicing elit. Magni nulla doloremque ea cupiditate, veritatis similique ab, a quia temporibus aliquid itaque numquam reiciendis atque voluptas unde at explicabo maxime sequi.
+              </p>
+
+              <!-- list of tecnologies used -->
+              <ul class="project__tecnologies">
+                <li>PHP</li>
+                <li>laravel</li>
+                <li>API</li>
+              </ul>
+
+              <!-- buttons for (see code on github) (see live) -->
+              <div class="project__buttons">
+
+                <button>
+                  <i class="far fa-eye"></i>
+                  see live
+                </button>
+
+                <button>
+                  <i class="fas fa-code"></i>
+                  See the code on Github
+                </button>
+
+              </div>
+
+            </div>
+            <!-- /text side -->
+
           </div>
+          <!-- /project--card -->
 
-          <!-- right side -->
-          <div>
-            <!-- screenshot of the project (with carousel) + border-radius-->
-            <img src="" alt="screenshot">
-
-          </div>
         </div>
 
       </section>
