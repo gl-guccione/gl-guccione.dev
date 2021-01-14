@@ -13,7 +13,7 @@ body {
 .layout--boxed {
   width: $layout_width;
   margin: 0 auto;
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1200px) {
     width: $layout_width--small;
   }
 }

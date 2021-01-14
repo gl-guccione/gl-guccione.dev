@@ -1,0 +1,44 @@
+.skills {
+  background-color: #fff;
+  padding: 2rem 0;
+
+  &__title {
+    padding-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+}
+
+.skill {
+  text-align: center;
+  margin: 2rem 1rem;
+  width: calc((100% / 5) - 2rem);
+  min-width: 200px;
+
+  &__image--container {
+    max-width: 40%;
+    min-width: 40px;
+    background-color: #fff;
+    border: 0.2rem solid $blue_850;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: background-color 400ms, transform 400ms;
+    &:hover {
+      background-color: $blue_500;
+      transform: scale(1.2);
+    }
+  }
+  &__image {
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  &__title {
+    margin: 1.25rem 0 0.5rem;
+  }
+}
