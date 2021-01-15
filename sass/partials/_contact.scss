@@ -4,6 +4,10 @@
   border-top-right-radius: 80px;
   color: #fff;
 
+  @media screen and (max-width:800px) {
+    margin-bottom: $header_height;
+  }
+
   &__title {
     padding-top: 2rem;
     text-align: center;

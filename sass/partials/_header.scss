@@ -1,13 +1,20 @@
 .menu {
-
   width: 100%;
   position: fixed;
   background-color: $white_600;
   top: 0;
   left: 0;
 
+  @media screen and (max-width:800px) {
+    top: auto;
+    bottom: 0;
+  }
+
   + * {
     margin-top: $header_height * 1.5;
+    @media screen and (max-width:800px) {
+      margin-top: 2rem;
+    }
   }
 
   &__list {
