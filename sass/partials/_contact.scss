@@ -1,0 +1,91 @@
+.contact {
+  background-color: $blue_500;
+  width: 96%;
+  border-top-right-radius: 80px;
+  color: #fff;
+
+  &__title {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  &__caption {
+    text-align: center;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    @media screen and (max-width:850px) {
+      flex-direction: column;
+      padding-left: 10%;
+    }
+  }
+  &__element {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0.5rem;
+  }
+  &__logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $blue_850;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__span {
+    font-weight: 300;
+    text-decoration: underline;
+  }
+}
+
+.contact-form {
+  background-color: $blue_850;
+  width: 80%;
+  margin-left: auto;
+  border-top-left-radius: 80px;
+  @media screen and (max-width: 850px) {
+    width: 95%;
+  }
+
+  &__form {
+    width: 65%;
+    margin-left: 7%;
+    padding: 3rem 1rem;
+
+    @media screen and (max-width: 850px) {
+      width: 78%;
+    }
+
+    > div {
+      display: flex;
+      @media screen and (max-width: 1100px) {
+        display: block;
+      }
+    }
+
+    input,
+    textarea {
+      border-radius: 10px;
+      border: 0.2rem solid $blue_550;
+      outline: none;
+      font-size: 1.2rem;
+      width: 100%;
+      margin: 0.5rem 0.25rem;
+      padding: 0.5rem 0.8rem;
+      color: $gray_900;
+      &:focus {
+        color: $blue_850;
+      }
+    }
+  }
+  &__button {
+    margin: 0.5rem 0.25rem;
+  }
+}

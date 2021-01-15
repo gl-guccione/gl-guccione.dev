@@ -305,50 +305,76 @@
     <!-- /main -->
 
     <!-- footer -->
-    <footer id="contacts">
+    <footer id="contacts" class="contact">
 
-      <!-- 2 divs with overlap effect -->
+      <h2 class="contact__title">Contatti</h2>
+      <h3 class="contact__caption"> --- get in touch ---</h3>
 
-      <div>
-        <!-- dark accent color + rounded top right -->
-        <!-- container with info -->
+      <div class="contact__wrapper">
 
-        <!-- elm -->
-        <div>
-          <!-- logo -->
-          <img src="" alt="email">
-          <i class="fas fa-envelope"></i>
-          <button>my email</button>
-        </div>
+        <ul class="contact__links layout--boxed">
 
-        <!-- elm -->
-        <div>
-          <!-- logo -->
-          <img src="" alt="linkedin">
-          <i class="fab fa-linkedin"></i>
-          <button>my linkedin</button>
-        </div>
+          <!-- elm -->
+          <li class="contact__element">
 
-        <section id="contact-form">
-          <!-- dark almost black + rounded top left + width 70% + margin-left auto -->
-          <h2>Contact me</h2>
-          <h3> --- get in touch ---</h3>
-
-          <!-- form -->
-          <span>Message me</span>
-          <form>
-            <div>
-              <input type="text" name="name">
-              <input type="email" name="email">
-            </div>
-            <div>
-              <input type="text" name="subject">
-            </div>
-            <div>
-              <textarea rows="4" name="message"></textarea>
+            <div class="contact__logo">
+              <i class="fas fa-user"></i>
             </div>
 
-            <button>Send message</button>
+            <div class="contact__text">
+              <h5 class="contact__label">Nome</h5>
+              <span class="contact__span">Giuseppe Luca Guccione</span>
+            </div>
+          </li>
+          <!-- /elm -->
+
+          <!-- elm -->
+          <li class="contact__element">
+
+            <div class="contact__logo">
+              <i class="fas fa-envelope"></i>
+            </div>
+
+            <div class="contact__text">
+              <h5 class="contact__label">Email</h5>
+              <a href="mailto:g.guccione3@gmail.com?subject=Collaboriamo!" class="contact__span">g.guccione3@gmail.com</a>
+            </div>
+          </li>
+          <!-- /elm -->
+
+          <!-- elm -->
+          <li class="contact__element">
+
+            <div class="contact__logo">
+              <i class="fab fa-linkedin"></i>
+            </div>
+
+            <div class="contact__text">
+              <h5 class="contact__label">LinkedIn</h5>
+              <a href="https://www.linkedin.com/in/gl-guccione/" class="contact__span">gl-guccione</a>
+            </div>
+          </li>
+          <!-- /elm -->
+
+        </ul>
+
+        <section class="contact-form">
+          <form class="contact-form__form">
+
+            <div>
+              <input type="text" name="name" placeholder="Nome" required>
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div>
+              <textarea rows="4" name="message" placeholder="Messaggio" required></textarea>
+            </div>
+
+            <button type="submit" class="button confirm contact-form__button">
+              <i class="fas fa-paper-plane"></i>
+              Invia
+            </button>
+
           </form>
         </section>
 
@@ -357,11 +383,6 @@
 
     </footer>
     <!-- /footer -->
-
-    <!-- fixed bottom 0; height 40px -->
-    <div id="bottom_watermark" class="d-flex justify--center align--items-center">
-      <span>|| Designed and built by Giuseppe Luca Guccione - <a href="https://github.com/gl-guccione/gl-guccione.dev" target="_blank"> <i class="fab fa-git-alt"></i>look at the source code</a> ||</span>
-    </div>
 
     <!-- custom js -->
     <script src="js/script.js"></script>
