@@ -1,33 +1,37 @@
 .button {
-  border: 0.15rem solid #c4c4c4;
-  color: $gray_900;
-  padding: 0.5rem;
   margin-right: 1rem;
-  font-size: 0.8rem;
-  border-radius: 0.4rem;
-  text-decoration: none;
+  padding: 0.5rem;
+
   transition: background-color 400ms;
+  text-decoration: none;
+
+  color: $gray_900;
+  border: 0.15rem solid #c4c4c4;
+  border-radius: 0.4rem;
+
+  font-size: 0.8rem;
   i {
-    color: $gray_900;
     padding-left: 0;
+
+    color: $gray_900;
   }
   &:hover {
-    background-color: #c4c4c4;
     color: #fff;
+    background-color: #c4c4c4;
     i {
       color: #fff;
     }
   }
   &.edit {
     &:hover {
-      background-color: #ffc107;
       border-color: #ffc107;
+      background-color: #ffc107;
     }
   }
   &.confirm {
     &:hover {
-      background-color: #4ea901;
       border-color: #4ea901;
+      background-color: #4ea901;
     }
   }
 }

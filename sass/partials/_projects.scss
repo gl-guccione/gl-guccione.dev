@@ -1,6 +1,7 @@
 .projects {
-  background-color: $white_600;
   padding: 2rem 0;
+
+  background-color: $white_600;
   &__title {
     margin-bottom: 2rem;
   }
@@ -8,6 +9,7 @@
 
 .project {
   display: grid;
+
   grid-template-columns: 50% 10% 40%;
 
   &__images {
@@ -24,6 +26,7 @@
 
   &__text {
     text-align: right;
+
     grid-column: 2 / 4;
     grid-row: 1 / 2;
     @media screen and (max-width: 750px) {
@@ -32,24 +35,31 @@
     }
   }
   &__title {
-    font-size: 2rem;
-    text-decoration: underline;
     margin-bottom: -0.3rem;
+
+    text-decoration: underline;
+
+    font-size: 2rem;
   }
   &__description {
-    text-align: left;
-    background-color: $blue_150;
     margin: 1.6rem 0;
     padding: 1rem 0.9rem 1.5rem;
-    box-shadow: 2px 2px 13px 3px rgba(124,124,124,0.3);
+
+    text-align: left;
+
     border-radius: 0.5rem;
+    background-color: $blue_150;
+    box-shadow: 2px 2px 13px 3px rgba(124,124,124,0.3);
   }
   &__tecnologies {
-    padding-left: calc(20% + 1rem);
-    text-align: left;
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
+
+    padding-left: calc(20% + 1rem);
+
+    list-style: none;
+
+    text-align: left;
 
     @media screen and (max-width: 750px) {
       padding-left: 0;
@@ -60,10 +70,11 @@
     }
   }
   &__buttons {
-    text-align: left;
     padding-top: 1.5rem;
-    padding-left: calc(20% + 1.3rem);
     padding-bottom: 2.5rem;
+    padding-left: calc(20% + 1.3rem);
+
+    text-align: left;
 
     @media screen and (max-width: 850px) {
       padding-left: 0;
